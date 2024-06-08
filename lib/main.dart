@@ -45,9 +45,6 @@ class MyAppState extends ChangeNotifier {
     notifyListeners();
   }
 }
-// ...
-
-// ...
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -99,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Expanded(
               child: Container(
                 color: Theme.of(context).colorScheme.primaryContainer,
-                child: page, // ← Here.
+                child: page,
               ),
             ),
           ],
@@ -153,7 +150,6 @@ class GeneratorPage extends StatelessWidget {
   }
 }
 
-// ...
 class BigCard extends StatelessWidget {
   const BigCard({
     super.key,
@@ -183,8 +179,6 @@ class BigCard extends StatelessWidget {
     );
   }
 }
-
-// ...
 
 class FavoritesPage extends StatelessWidget {
   @override
